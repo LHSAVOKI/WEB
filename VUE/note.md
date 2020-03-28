@@ -47,7 +47,7 @@
     const vm = new Vue({
       el: '#app',
       data: {
-        'mrDeng': '风姿绰约、花枝招展'
+        'msg': '雾岛董香'
       }
     })
   ```
@@ -55,13 +55,13 @@
 - 使用方法： {{ }}
 - 可以将vue中的数据填在插值表达式中，如：
   ``` html
-    <div id="app">{{ mrDeng }}</div>
+    <div id="app">{{ msg }}</div>
   ```
   ```js
     const vm = new Vue({
       el: '#app',
       data: {
-        mrDeng: '邓哥：风姿绰约、花枝招展'
+        msg: '金木研'
       }
     })
   ```
